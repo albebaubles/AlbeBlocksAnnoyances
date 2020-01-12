@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B49D993E23C7EEFB000E620D /* AlbeBlocksAnnoyances.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = B49D993D23C7EEFB000E620D /* AlbeBlocksAnnoyances.entitlements */; };
+		B49D994023C7EEFB000E620D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D993F23C7EEFB000E620D /* AppDelegate.swift */; };
+		B49D994323C7EEFB000E620D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49D994123C7EEFB000E620D /* Main.storyboard */; };
+		B49D994523C7EEFB000E620D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D994423C7EEFB000E620D /* ViewController.swift */; };
+		B49D994723C7EEFD000E620D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49D994623C7EEFD000E620D /* Assets.xcassets */; };
+		B49D998E23C90FDB000E620D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49D996823C7EEFD000E620D /* Cocoa.framework */; };
+		B49D999123C90FDB000E620D /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = B49D999023C90FDB000E620D /* blockerList.json */; };
+		B49D999323C90FDB000E620D /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D999223C90FDB000E620D /* ContentBlockerRequestHandler.swift */; };
+		B49D999823C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B49D998D23C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B49D999623C90FDB000E620D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B49D993223C7EEFB000E620D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B49D998C23C90FDB000E620D;
+			remoteInfo = com.albebaubles.AlbeBlocksAnnoyances;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B49D997D23C7EEFD000E620D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B49D999823C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B49D993A23C7EEFB000E620D /* AlbeBlocksAnnoyances.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlbeBlocksAnnoyances.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49D993D23C7EEFB000E620D /* AlbeBlocksAnnoyances.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlbeBlocksAnnoyances.entitlements; sourceTree = "<group>"; };
+		B49D993F23C7EEFB000E620D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B49D994223C7EEFB000E620D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B49D994423C7EEFB000E620D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B49D994623C7EEFD000E620D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B49D994823C7EEFD000E620D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49D996823C7EEFD000E620D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B49D998D23C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = com.albebaubles.AlbeBlocksAnnoyances.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49D999023C90FDB000E620D /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		B49D999223C90FDB000E620D /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		B49D999423C90FDB000E620D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49D999523C90FDB000E620D /* com_albebaubles_AlbeBlocksAnnoyances.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = com_albebaubles_AlbeBlocksAnnoyances.entitlements; sourceTree = "<group>"; };
+		B4B1E58923CA8B8D00A152C8 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		B4B1E58B23CA8B8D00A152C8 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		B4B1E58D23CA8B8D00A152C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B49D993723C7EEFB000E620D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49D998A23C90FDB000E620D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49D998E23C90FDB000E620D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B49D993123C7EEFB000E620D = {
+			isa = PBXGroup;
+			children = (
+				B49D993C23C7EEFB000E620D /* AlbeBlocksAnnoyances */,
+				B49D998F23C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances */,
+				B4B1E58823CA8B8D00A152C8 /* AlbeBlocksAnnoyances_iOS */,
+				B49D996723C7EEFD000E620D /* Frameworks */,
+				B49D993B23C7EEFB000E620D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B49D993B23C7EEFB000E620D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B49D993A23C7EEFB000E620D /* AlbeBlocksAnnoyances.app */,
+				B49D998D23C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B49D993C23C7EEFB000E620D /* AlbeBlocksAnnoyances */ = {
+			isa = PBXGroup;
+			children = (
+				B49D993D23C7EEFB000E620D /* AlbeBlocksAnnoyances.entitlements */,
+				B49D993F23C7EEFB000E620D /* AppDelegate.swift */,
+				B49D994123C7EEFB000E620D /* Main.storyboard */,
+				B49D994423C7EEFB000E620D /* ViewController.swift */,
+				B49D994623C7EEFD000E620D /* Assets.xcassets */,
+				B49D994823C7EEFD000E620D /* Info.plist */,
+			);
+			path = AlbeBlocksAnnoyances;
+			sourceTree = "<group>";
+		};
+		B49D996723C7EEFD000E620D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B49D996823C7EEFD000E620D /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B49D998F23C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances */ = {
+			isa = PBXGroup;
+			children = (
+				B49D999023C90FDB000E620D /* blockerList.json */,
+				B49D999223C90FDB000E620D /* ContentBlockerRequestHandler.swift */,
+				B49D999423C90FDB000E620D /* Info.plist */,
+				B49D999523C90FDB000E620D /* com_albebaubles_AlbeBlocksAnnoyances.entitlements */,
+			);
+			path = com.albebaubles.AlbeBlocksAnnoyances;
+			sourceTree = "<group>";
+		};
+		B4B1E58823CA8B8D00A152C8 /* AlbeBlocksAnnoyances_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4B1E58923CA8B8D00A152C8 /* blockerList.json */,
+				B4B1E58B23CA8B8D00A152C8 /* ContentBlockerRequestHandler.swift */,
+				B4B1E58D23CA8B8D00A152C8 /* Info.plist */,
+			);
+			path = AlbeBlocksAnnoyances_iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B49D993923C7EEFB000E620D /* AlbeBlocksAnnoyances */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49D997E23C7EEFD000E620D /* Build configuration list for PBXNativeTarget "AlbeBlocksAnnoyances" */;
+			buildPhases = (
+				B49D993623C7EEFB000E620D /* Sources */,
+				B49D993723C7EEFB000E620D /* Frameworks */,
+				B49D993823C7EEFB000E620D /* Resources */,
+				B49D997D23C7EEFD000E620D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B49D999723C90FDB000E620D /* PBXTargetDependency */,
+			);
+			name = AlbeBlocksAnnoyances;
+			productName = AlbeBlocksAnnoyances;
+			productReference = B49D993A23C7EEFB000E620D /* AlbeBlocksAnnoyances.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B49D998C23C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49D999B23C90FDB000E620D /* Build configuration list for PBXNativeTarget "com.albebaubles.AlbeBlocksAnnoyances" */;
+			buildPhases = (
+				B49D998923C90FDB000E620D /* Sources */,
+				B49D998A23C90FDB000E620D /* Frameworks */,
+				B49D998B23C90FDB000E620D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = com.albebaubles.AlbeBlocksAnnoyances;
+			productName = com.albebaubles.AlbeBlocksAnnoyances;
+			productReference = B49D998D23C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B49D993223C7EEFB000E620D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Albebaubles LLC";
+				TargetAttributes = {
+					B49D993923C7EEFB000E620D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					B49D998C23C90FDB000E620D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = B49D993523C7EEFB000E620D /* Build configuration list for PBXProject "AlbeBlocksAnnoyances" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B49D993123C7EEFB000E620D;
+			productRefGroup = B49D993B23C7EEFB000E620D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B49D993923C7EEFB000E620D /* AlbeBlocksAnnoyances */,
+				B49D998C23C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B49D993823C7EEFB000E620D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49D993E23C7EEFB000E620D /* AlbeBlocksAnnoyances.entitlements in Resources */,
+				B49D994723C7EEFD000E620D /* Assets.xcassets in Resources */,
+				B49D994323C7EEFB000E620D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49D998B23C90FDB000E620D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49D999123C90FDB000E620D /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B49D993623C7EEFB000E620D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49D994523C7EEFB000E620D /* ViewController.swift in Sources */,
+				B49D994023C7EEFB000E620D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49D998923C90FDB000E620D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49D999323C90FDB000E620D /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B49D999723C90FDB000E620D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B49D998C23C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances */;
+			targetProxy = B49D999623C90FDB000E620D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B49D994123C7EEFB000E620D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B49D994223C7EEFB000E620D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B49D997823C7EEFD000E620D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B49D997923C7EEFD000E620D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B49D997F23C7EEFD000E620D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlbeBlocksAnnoyances/AlbeBlocksAnnoyances.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6D83G6D489;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = AlbeBlocksAnnoyances/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.albebaubles.AlbeBlocksAnnoyances;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B49D998023C7EEFD000E620D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlbeBlocksAnnoyances/AlbeBlocksAnnoyances.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6D83G6D489;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = AlbeBlocksAnnoyances/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.albebaubles.AlbeBlocksAnnoyances;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B49D999923C90FDB000E620D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = com.albebaubles.AlbeBlocksAnnoyances/com_albebaubles_AlbeBlocksAnnoyances.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D83G6D489;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = com.albebaubles.AlbeBlocksAnnoyances/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.albebaubles.AlbeBlocksAnnoyances;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B49D999A23C90FDB000E620D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = com.albebaubles.AlbeBlocksAnnoyances/com_albebaubles_AlbeBlocksAnnoyances.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D83G6D489;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = com.albebaubles.AlbeBlocksAnnoyances/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.albebaubles.AlbeBlocksAnnoyances;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B49D993523C7EEFB000E620D /* Build configuration list for PBXProject "AlbeBlocksAnnoyances" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49D997823C7EEFD000E620D /* Debug */,
+				B49D997923C7EEFD000E620D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49D997E23C7EEFD000E620D /* Build configuration list for PBXNativeTarget "AlbeBlocksAnnoyances" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49D997F23C7EEFD000E620D /* Debug */,
+				B49D998023C7EEFD000E620D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49D999B23C90FDB000E620D /* Build configuration list for PBXNativeTarget "com.albebaubles.AlbeBlocksAnnoyances" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49D999923C90FDB000E620D /* Debug */,
+				B49D999A23C90FDB000E620D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B49D993223C7EEFB000E620D /* Project object */;
+}
