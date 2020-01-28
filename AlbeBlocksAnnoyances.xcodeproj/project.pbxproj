@@ -16,6 +16,15 @@
 		B49D999123C90FDB000E620D /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = B49D999023C90FDB000E620D /* blockerList.json */; };
 		B49D999323C90FDB000E620D /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D999223C90FDB000E620D /* ContentBlockerRequestHandler.swift */; };
 		B49D999823C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B49D998D23C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B4D0992423E098AD001640A6 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = B4D0992323E098AD001640A6 /* blockerList.json */; };
+		B4D0992623E098AD001640A6 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D0992523E098AD001640A6 /* ContentBlockerRequestHandler.swift */; };
+		B4D0993623E09AC4001640A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D0993523E09AC4001640A6 /* AppDelegate.swift */; };
+		B4D0993823E09AC4001640A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D0993723E09AC4001640A6 /* SceneDelegate.swift */; };
+		B4D0993A23E09AC4001640A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D0993923E09AC4001640A6 /* ViewController.swift */; };
+		B4D0993D23E09AC4001640A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4D0993B23E09AC4001640A6 /* Main.storyboard */; };
+		B4D0993F23E09AC5001640A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D0993E23E09AC5001640A6 /* Assets.xcassets */; };
+		B4D0994223E09AC5001640A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4D0994023E09AC5001640A6 /* LaunchScreen.storyboard */; };
+		B4D0994723E09AD9001640A6 /* com.albebaubles.AlbeBlocksAnnoyancesIos.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B4D0992123E098AD001640A6 /* com.albebaubles.AlbeBlocksAnnoyancesIos.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +34,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = B49D998C23C90FDB000E620D;
 			remoteInfo = com.albebaubles.AlbeBlocksAnnoyances;
+		};
+		B4D0994823E09AD9001640A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B49D993223C7EEFB000E620D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4D0992023E098AD001640A6;
+			remoteInfo = com.albebaubles.AlbeBlocksAnnoyancesIos;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -36,6 +52,17 @@
 			dstSubfolderSpec = 13;
 			files = (
 				B49D999823C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D0994A23E09AD9001640A6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B4D0994723E09AD9001640A6 /* com.albebaubles.AlbeBlocksAnnoyancesIos.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,9 +83,18 @@
 		B49D999223C90FDB000E620D /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
 		B49D999423C90FDB000E620D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B49D999523C90FDB000E620D /* com_albebaubles_AlbeBlocksAnnoyances.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = com_albebaubles_AlbeBlocksAnnoyances.entitlements; sourceTree = "<group>"; };
-		B4B1E58923CA8B8D00A152C8 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
-		B4B1E58B23CA8B8D00A152C8 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
-		B4B1E58D23CA8B8D00A152C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4D0992123E098AD001640A6 /* com.albebaubles.AlbeBlocksAnnoyancesIos.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = com.albebaubles.AlbeBlocksAnnoyancesIos.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D0992323E098AD001640A6 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		B4D0992523E098AD001640A6 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		B4D0992723E098AD001640A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4D0993323E09AC4001640A6 /* AlbeBlocksAnnoyancesIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlbeBlocksAnnoyancesIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D0993523E09AC4001640A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4D0993723E09AC4001640A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B4D0993923E09AC4001640A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4D0993C23E09AC4001640A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4D0993E23E09AC5001640A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4D0994123E09AC5001640A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4D0994323E09AC5001640A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +113,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B4D0991E23E098AD001640A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D0993023E09AC4001640A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,7 +135,8 @@
 			children = (
 				B49D993C23C7EEFB000E620D /* AlbeBlocksAnnoyances */,
 				B49D998F23C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances */,
-				B4B1E58823CA8B8D00A152C8 /* AlbeBlocksAnnoyances_iOS */,
+				B4D0992223E098AD001640A6 /* com.albebaubles.AlbeBlocksAnnoyancesIos */,
+				B4D0993423E09AC4001640A6 /* AlbeBlocksAnnoyancesIos */,
 				B49D996723C7EEFD000E620D /* Frameworks */,
 				B49D993B23C7EEFB000E620D /* Products */,
 			);
@@ -96,6 +147,8 @@
 			children = (
 				B49D993A23C7EEFB000E620D /* AlbeBlocksAnnoyances.app */,
 				B49D998D23C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances.appex */,
+				B4D0992123E098AD001640A6 /* com.albebaubles.AlbeBlocksAnnoyancesIos.appex */,
+				B4D0993323E09AC4001640A6 /* AlbeBlocksAnnoyancesIos.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,14 +185,28 @@
 			path = com.albebaubles.AlbeBlocksAnnoyances;
 			sourceTree = "<group>";
 		};
-		B4B1E58823CA8B8D00A152C8 /* AlbeBlocksAnnoyances_iOS */ = {
+		B4D0992223E098AD001640A6 /* com.albebaubles.AlbeBlocksAnnoyancesIos */ = {
 			isa = PBXGroup;
 			children = (
-				B4B1E58923CA8B8D00A152C8 /* blockerList.json */,
-				B4B1E58B23CA8B8D00A152C8 /* ContentBlockerRequestHandler.swift */,
-				B4B1E58D23CA8B8D00A152C8 /* Info.plist */,
+				B4D0992323E098AD001640A6 /* blockerList.json */,
+				B4D0992523E098AD001640A6 /* ContentBlockerRequestHandler.swift */,
+				B4D0992723E098AD001640A6 /* Info.plist */,
 			);
-			path = AlbeBlocksAnnoyances_iOS;
+			path = com.albebaubles.AlbeBlocksAnnoyancesIos;
+			sourceTree = "<group>";
+		};
+		B4D0993423E09AC4001640A6 /* AlbeBlocksAnnoyancesIos */ = {
+			isa = PBXGroup;
+			children = (
+				B4D0993523E09AC4001640A6 /* AppDelegate.swift */,
+				B4D0993723E09AC4001640A6 /* SceneDelegate.swift */,
+				B4D0993923E09AC4001640A6 /* ViewController.swift */,
+				B4D0993B23E09AC4001640A6 /* Main.storyboard */,
+				B4D0993E23E09AC5001640A6 /* Assets.xcassets */,
+				B4D0994023E09AC5001640A6 /* LaunchScreen.storyboard */,
+				B4D0994323E09AC5001640A6 /* Info.plist */,
+			);
+			path = AlbeBlocksAnnoyancesIos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +248,42 @@
 			productReference = B49D998D23C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		B4D0992023E098AD001640A6 /* com.albebaubles.AlbeBlocksAnnoyancesIos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4D0992B23E098AD001640A6 /* Build configuration list for PBXNativeTarget "com.albebaubles.AlbeBlocksAnnoyancesIos" */;
+			buildPhases = (
+				B4D0991D23E098AD001640A6 /* Sources */,
+				B4D0991E23E098AD001640A6 /* Frameworks */,
+				B4D0991F23E098AD001640A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = com.albebaubles.AlbeBlocksAnnoyancesIos;
+			productName = ios;
+			productReference = B4D0992123E098AD001640A6 /* com.albebaubles.AlbeBlocksAnnoyancesIos.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B4D0993223E09AC4001640A6 /* AlbeBlocksAnnoyancesIos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4D0994423E09AC5001640A6 /* Build configuration list for PBXNativeTarget "AlbeBlocksAnnoyancesIos" */;
+			buildPhases = (
+				B4D0992F23E09AC4001640A6 /* Sources */,
+				B4D0993023E09AC4001640A6 /* Frameworks */,
+				B4D0993123E09AC4001640A6 /* Resources */,
+				B4D0994A23E09AD9001640A6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4D0994923E09AD9001640A6 /* PBXTargetDependency */,
+			);
+			name = AlbeBlocksAnnoyancesIos;
+			productName = AlbeBlocksAnnoyancesIos;
+			productReference = B4D0993323E09AC4001640A6 /* AlbeBlocksAnnoyancesIos.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,6 +299,12 @@
 					};
 					B49D998C23C90FDB000E620D = {
 						CreatedOnToolsVersion = 11.3;
+					};
+					B4D0992023E098AD001640A6 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					B4D0993223E09AC4001640A6 = {
+						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
@@ -214,6 +323,8 @@
 			targets = (
 				B49D993923C7EEFB000E620D /* AlbeBlocksAnnoyances */,
 				B49D998C23C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances */,
+				B4D0992023E098AD001640A6 /* com.albebaubles.AlbeBlocksAnnoyancesIos */,
+				B4D0993223E09AC4001640A6 /* AlbeBlocksAnnoyancesIos */,
 			);
 		};
 /* End PBXProject section */
@@ -237,6 +348,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B4D0991F23E098AD001640A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D0992423E098AD001640A6 /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D0993123E09AC4001640A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D0994223E09AC5001640A6 /* LaunchScreen.storyboard in Resources */,
+				B4D0993F23E09AC5001640A6 /* Assets.xcassets in Resources */,
+				B4D0993D23E09AC4001640A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,6 +386,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B4D0991D23E098AD001640A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D0992623E098AD001640A6 /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D0992F23E09AC4001640A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D0993A23E09AC4001640A6 /* ViewController.swift in Sources */,
+				B4D0993623E09AC4001640A6 /* AppDelegate.swift in Sources */,
+				B4D0993823E09AC4001640A6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -264,6 +411,11 @@
 			isa = PBXTargetDependency;
 			target = B49D998C23C90FDB000E620D /* com.albebaubles.AlbeBlocksAnnoyances */;
 			targetProxy = B49D999623C90FDB000E620D /* PBXContainerItemProxy */;
+		};
+		B4D0994923E09AD9001640A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4D0992023E098AD001640A6 /* com.albebaubles.AlbeBlocksAnnoyancesIos */;
+			targetProxy = B4D0994823E09AD9001640A6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -274,6 +426,22 @@
 				B49D994223C7EEFB000E620D /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4D0993B23E09AC4001640A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4D0993C23E09AC4001640A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4D0994023E09AC5001640A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4D0994123E09AC5001640A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -476,6 +644,92 @@
 			};
 			name = Release;
 		};
+		B4D0992C23E098AD001640A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D83G6D489;
+				INFOPLIST_FILE = "$(SRCROOT)/com.albebaubles.AlbeBlocksAnnoyancesIos/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.albebaubles.AlbeBlocksAnnoyancesIos.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4D0992D23E098AD001640A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D83G6D489;
+				INFOPLIST_FILE = "$(SRCROOT)/com.albebaubles.AlbeBlocksAnnoyancesIos/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.albebaubles.AlbeBlocksAnnoyancesIos.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4D0994523E09AC5001640A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D83G6D489;
+				INFOPLIST_FILE = AlbeBlocksAnnoyancesIos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.albebaubles.AlbeBlocksAnnoyancesIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4D0994623E09AC5001640A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D83G6D489;
+				INFOPLIST_FILE = AlbeBlocksAnnoyancesIos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.albebaubles.AlbeBlocksAnnoyancesIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -502,6 +756,24 @@
 			buildConfigurations = (
 				B49D999923C90FDB000E620D /* Debug */,
 				B49D999A23C90FDB000E620D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4D0992B23E098AD001640A6 /* Build configuration list for PBXNativeTarget "com.albebaubles.AlbeBlocksAnnoyancesIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4D0992C23E098AD001640A6 /* Debug */,
+				B4D0992D23E098AD001640A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4D0994423E09AC5001640A6 /* Build configuration list for PBXNativeTarget "AlbeBlocksAnnoyancesIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4D0994523E09AC5001640A6 /* Debug */,
+				B4D0994623E09AC5001640A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
